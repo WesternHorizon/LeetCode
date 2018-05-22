@@ -1,5 +1,5 @@
 char* reverseString(char* s) {
-    char *p1, *p2;
+	char *p1, *p2;
 	char temp;
 
 	p1 = s;
