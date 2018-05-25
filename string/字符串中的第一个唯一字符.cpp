@@ -30,7 +30,7 @@ int firstUniqChar(char* s) {
 
 	len = strlen(s);
 	if (len == 0) return -1;
-	else if (len == 1) return 0;
+	if (len == 1) return 0;
 
 	int alphabet[26] = { 0 };
 
